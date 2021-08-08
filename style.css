@@ -1,0 +1,134 @@
+:root {
+    --accent: blue;
+    --link-alt: darkblue;
+    --main: #343a40;
+    --bg: white;
+    --ink: darkblue;
+}
+
+html,
+body {
+/* System Fonts as used by GitHub */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    max-width: 1050px;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.5em;
+    font-size: small;
+}
+
+a:link, a:visited {
+     text-decoration: none;
+   color: var(--accent);
+}
+a:hover, a:focus {
+  color: var(--link-alt);
+    text-decoration: underline;
+}
+
+h2 {
+margin-top: 0px;
+padding: 0;
+text-align: center;
+font-variant-caps: small-caps;
+font-size: xx-large;
+color: var(--ink);
+}
+h4 {display:none; visibility:hidden;}
+h2, h3 {
+   padding-bottom: 0px;
+}
+h3 {
+  color: var(--ink);
+  overflow: hidden;
+  text-align: left;
+}
+
+h3:after {
+  background-color: var(--ink);
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+h3:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.mytable {
+   width: 100%;
+   margin: 0px;
+   border-spacing: 0;
+   padding: 0px;
+}
+.meta tr td {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.exp {table-layout: fixed;}
+.exp td:first-child {text-align: left;}
+.exp td:nth-child(2) {width: 350px; text-align: center;}
+.exp td:nth-child(3) {text-align: right;}
+
+.education {table-layout: fixed;}
+.education td:first-child {text-align: left;}
+.education td:nth-child(2) {width: 350px; text-align: center;}
+.education td:nth-child(3) {text-align: right;}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 960px)  {
+
+    /* Force table to not be like tables anymore */
+    mytable, tbody, td, tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .meta td {
+        /* Behave  like a "row" */
+        border: none;
+        position: relative;
+        padding-top: 0;
+    }
+
+    .exp {table-layout: auto;}
+    .exp tr {padding-bottom: 0;}
+    .exp td {
+        /* Behave  like a "row" */
+        border: none;
+        position: relative;
+        padding-bottom: 0;
+        text-align: left;
+    }
+    .exp td:first-child {text-align: left;}
+    .exp td:nth-child(2) {text-align: left;}
+    .exp td:nth-child(3) {text-align: left;}
+    .exp :last-child >:last-child >:last-child { display: none; }
+
+    .exp tr:nth-child(1) { text-color: red; }
+
+    .education {table-layout: auto;}
+    .education tr { padding: 0;
+                    margin-top: 0; margin-bottom: 15px;}
+    .education td {
+        /* Behave  like a "row" */
+        border: none;
+        position: relative;
+        padding-bottom: 0;
+        text-align: left;
+    }
+    .education td:first-child {text-align: left;}
+    .education td:nth-child(2) {text-align: left;}
+    .education td:nth-child(3) {text-align: left;}
+}

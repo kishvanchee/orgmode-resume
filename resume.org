@@ -1,0 +1,44 @@
+#+TITLE: Resume
+#+author: FirstName LastName
+#+options: toc:nil num:nil title:nil author:nil timestamp:nil html-style:nil prop:nil
+#+latex_compiler: xelatex
+#+latex_class: article
+#+latex_class_options: [letterpaper,10pt]
+#+latex_header: \include{latexTemplate.tex}
+#+html_head_extra: <link rel="stylesheet" type="text/css" href="style.css" />
+
+* FirstName LastName
+#+attr_html: :class mytable meta :rules all :border nil :cellspacing nil :cellpadding nil :frame nil
+#+attr_latex: :align c|c|c|c
+| [[mailto:email@gmail.com][email@gmail.com]] | [[https://linkedin.com/in/username][linkedin.com/in/username]] | +91-9876543210 | City, Country |
+** Experience
+*** Company 1
+#+attr_html: :class mytable exp :rules nil :border nil :cellspacing nil :cellpadding nil :frame nil
+#+attr_latex: :align L{0.27\textwidth}C{0.40\textwidth}R{0.25\textwidth}
+| *Software Engineer* | *Company Inc.* | *Feb 2015 -- Present* |
+| Software Team       | City           |                       |
+- I'm doing something awesome here
+  + Some bullets
+  + More info
+- I accomplished something here
+- Some more stuff I can proudly talk about
+*** Company 2
+#+attr_html: :class mytable exp :rules nil :border nil :cellspacing nil :cellpadding nil :frame nil
+#+attr_latex: :align L{0.27\textwidth}C{0.40\textwidth}R{0.25\textwidth}
+| *Software Engineer* | *Company Inc.* | *Feb 2005 -- Jan 2015* |
+| Software Team       | City           |                        |
+- I'm doing something awesome here
+  + Some bullets
+  + More info
+- I accomplished something here
+- Some more stuff I can proudly talk about
+** Technical Skills
+- *Languages*  -- Python, SQL, Java, Scala, C++, everything else
+- *Frameworks* -- Airflow, Django, And the world
+- *Databases*  -- RDBMS, NOSql, Much more
+- *Dev tools*  -- Git & other stuff
+** Education
+#+attr_html: :class mytable education :rules nil :border nil :cellspacing nil :cellpadding nil :frame nil
+#+attr_latex: :align L{0.27\textwidth}C{0.40\textwidth}R{0.25\textwidth}
+| *Masters degree*   | University Name | Jul 1990 -- Jul 1992 |
+| *Bachelors degree* | University Name | Jul 1986 -- Jul 1990 |
