@@ -1,0 +1,103 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[explicit]{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{xcolor}
+\definecolor{ink}{rgb}{0.15, 0.20, 0.70} % ink color
+\colorlet{TextColor}{ink}
+\colorlet{LinkColor}{ink}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=LinkColor
+}
+\urlstyle{same}
+
+\usepackage[T1]{fontenc}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault,light]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+%  \usepackage{lmodern}
+% \usepackage{tgheros}
+%\usepackage{mlmodern}
+%  \renewcommand*\familydefault{\sfdefault}
+\usepackage[default]{sourcesanspro}
+
+
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+%\usepackage{mlmodern}
+%\usepackage{fontspec}
+%\setmainfont{Proxima Nova Alt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+%\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\newcommand{\raisedrulefill}[2][0ex]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+\titleformat{\section}{
+  \vspace{-4pt}\bfseries \color{TextColor}\raggedright\footnotesize\MakeUppercase
+}{}{0em}{#1\raisedrulefill[0.5ex]{1pt}\vspace{-10pt}}
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%\setlist{itemsep=nosep,before=\small,topsep=0em,partopsep=0em,leftmargin=0.15in}
+%\setlist{nosep,before=\small,topsep=3pt,leftmargin=0.2in}
+\setlist{itemsep=0.2pt,before=\small,topsep=3pt,leftmargin=0.2in}
+%\setitemize{itemsep=1mm,before=\small,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=0.2in}
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{5pt}
+      {\small\textbf{#1}} \hfill {\small\textbf{#2}} \\
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  %\vspace{5pt}
+      \textit{\small#1} \hfill \textit{\small #2} \\
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\creator}[1]{
+  \fancyfoot[R]{
+    \footnotesize
+    \textit{
+    Created with #1
+    }
+  }
+}
+%-------------------------------------------

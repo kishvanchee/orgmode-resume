@@ -1,0 +1,78 @@
+#+title: Author's Resume
+#+options: author:t email:t creator:t toc:nil num:nil title:nil
+#+date: \today
+#+author: FName LName
+#+email: fname.lname@gmail.com
+#+mobile: +91 98765 43210
+#+linkedin: name
+#+creator: Emacs 28.1 (Org mode 9.6)
+#+anon: t
+
+Some summary about myself. Lorem ipsum dolor sit amet. Ea nemo sequi quia quibusdam sed iure reprehenderit eos soluta nulla.
+
+* Experience
+** Awesome Company 2
+:PROPERTIES:
+:LOCATION: Bangalore, Remote
+:END:
+*** Senior Software Engineer
+:PROPERTIES:
+:FROM: <2022-06-14 Tue>
+:TO: <2022-07-20 Wed>
+:END:
+- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
+- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
+- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
+- Id minus nihil et ipsa galisum et dignissimos eaque ea rerum iure est consectetur enim est repellendus suscipit! Vel beatae perspiciatis qui omnis saepe est libero laudantium qui esse sequi eligendi voluptate ut iste internos.
+*** Software Engineer
+:PROPERTIES:
+:FROM: <2022-04-14 Thu>
+:TO: <2022-06-14 Tue>
+:END:
+- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
+- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
+- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
+- Sed repudiandae nisi sit consequatur accusamus est atque minus quo illum dignissimos vel galisum assumenda ut excepturi dolor eos molestiae voluptate.
+** Awesome Company 1
+:PROPERTIES:
+:LOCATION: Bangalore, Remote
+:END:
+*** Software Engineer
+:PROPERTIES:
+:FROM: <2022-04-14 Thu>
+:TO: <2022-06-14 Tue>
+:END:
+- Lorem ipsum dolor sit amet. Id perferendis voluptate est iste voluptas et provident consequatur sit quis nihil ut quisquam adipisci sit maiores molestias. Odit laboriosam et neque dignissimos et ratione consequatur non assumenda dolores ut distinctio hic fuga fugit.
+- Est eius odio non iste aliquid non molestiae velit est cupiditate similique? Sed perferendis assumenda ex inventore esse et illum earum id cupiditate minima in placeat consequatur est aliquam modi?
+- Sed nihil voluptas sed voluptatem placeat ut ipsam voluptatem. Sit quisquam commodi sit alias omnis et explicabo pariatur est ipsum reprehenderit. Et facilis ipsa est voluptatem saepe et dolor sint non ducimus dicta.
+- Sed repudiandae nisi sit consequatur accusamus est atque minus quo illum dignissimos vel galisum assumenda ut excepturi dolor eos molestiae voluptate.
+* Technical Skills
+- *Languages*:  Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R
+- *Frameworks*: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI
+- *Developer Tools*: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse
+- *Libraries*: pandas, NumPy, Matplotlib
+* Projects
+- *Gitlytics* -- /Python, Flask, React, PostgreSQL, Docker/
+  - Developed a full-stack web application using with Flask serving a REST API with React as the frontend
+  - Implemented GitHub OAuth to get data from user’s repositories
+  - Visualized GitHub data to show collaboration
+  - Used Celery and Redis for asynchronous tasks
+* Education
+** Masters University Name
+:PROPERTIES:
+:LOCATION: Earth, Milky Way
+:END:
+*** MS Computer Science
+:PROPERTIES:
+:FROM:     <2022-04-14 Thu>
+:TO:       <2022-06-14 Tue>
+:END:
+** Bachelors University Name
+:PROPERTIES:
+:LOCATION: Earth, Solar System
+:END:
+*** BS Computer Science
+:PROPERTIES:
+:FROM:     <2022-04-14 Thu>
+:TO:       <2022-06-14 Tue>
+:END:
