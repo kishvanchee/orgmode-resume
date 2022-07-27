@@ -1,0 +1,62 @@
+
+
+
+FirstName LastName
+══════════════════
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   [email@gmail.com]  [linkedin.com/in/username]  +91-9876543210  City, Country 
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+[email@gmail.com] <mailto:email@gmail.com>
+
+[linkedin.com/in/username] <https://linkedin.com/in/username>
+
+Experience
+──────────
+
+Company 1
+╌╌╌╌╌╌╌╌╌
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   *Software Engineer*  *Company Inc.*  *Feb 2015 – Present* 
+   Software Team        City                                 
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • I’m doing something awesome here
+    ⁃ Some bullets
+    ⁃ More info
+  • I accomplished something here
+  • Some more stuff I can proudly talk about
+
+
+Company 2
+╌╌╌╌╌╌╌╌╌
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   *Software Engineer*  *Company Inc.*  *Feb 2005 – Jan 2015* 
+   Software Team        City                                  
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  • I’m doing something awesome here
+    ⁃ Some bullets
+    ⁃ More info
+  • I accomplished something here
+  • Some more stuff I can proudly talk about
+
+
+Technical Skills
+────────────────
+
+  • *Languages* – Python, SQL, Java, Scala, C++, everything else
+  • *Frameworks* – Airflow, Django, And the world
+  • *Databases* – RDBMS, NOSql, Much more
+  • *Dev tools* – Git & other stuff
+
+
+Education
+─────────
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   *Masters degree*    University Name  Jul 1990 – Jul 1992 
+   *Bachelors degree*  University Name  Jul 1986 – Jul 1990 
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
